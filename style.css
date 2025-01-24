@@ -179,7 +179,7 @@ body.dark .nav-links li a:hover .link-name{
     justify-content: center;
     cursor: pointer;
 }
-.mode-toggle .switch{
+.mode-switch .switch{
     position: relative;
     display: inline-block;
     height: 22px;

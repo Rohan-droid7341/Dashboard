@@ -15,8 +15,8 @@
     --black-light-color: #707070;
     --border-color: #e6e5e5;
     --toggle-color: #DDD;
-    --box1-color: #4DA3FF;
-    --box2-color: #FFE6AC;
+    --box1-color: #f0552a;
+    --box2-color: #b3e54e;
     --box3-color: #E7D1FC;
     --title-icon-color: #fff;
     
@@ -283,7 +283,7 @@ nav.close ~ .dashboard .top{
     position: relative;
     height: 35px;
     width: 35px;
-    background-color: var(--primary-color);
+    background-color:blue;
     border-radius: 6px;
     color: var(--title-icon-color);
     display: flex;

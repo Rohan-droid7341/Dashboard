@@ -30,3 +30,34 @@ sidebarToggle.addEventListener("click", () => {
         localStorage.setItem("status", "open");
     }
 })
+let upto = 505;
+let counts = setInterval(updated, 1500);
+
+function updated() {
+    let count = document.getElementById("number1");
+    count.innerHTML = ++upto;
+    if (upto === 1000000) {
+        clearInterval(counts);
+    }
+}
+
+let upto2 = 309;
+let counts2 = setInterval(updated2, 2500);
+
+function updated2() {
+    let count = document.getElementById("number2");
+    count.innerHTML = ++upto2;
+    if (upto2 === 1000) {
+        clearInterval(counts2);
+    }
+}
+
+let upto3 = 455;
+let counts3 = setInterval(updated3, 3000);
+function updated3() {
+    let count = document.getElementById("number3");
+    count.innerHTML = ++upto3;
+    if (upto3 === 10000) {
+        clearInterval(counts3);
+    }
+}

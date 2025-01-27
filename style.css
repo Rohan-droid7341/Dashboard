@@ -334,32 +334,38 @@ nav.close ~ .dashboard .top{
 .boxes .box.box3{
     background-color: var(--box3-color);
 }
-.dash-content .activity .activity-data{
+.dash-content .activity .activityy{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 }
-.activity .activity-data{
+.activity .activityy{
     display: flex;
 }
-.activity-data .data{
+.activityy .data{
     display: flex;
     flex-direction: column;
     margin: 0 15px;
 }
-.activity-data .data-title{
+.activityy .title{
     font-size: 20px;
     font-weight: 500;
     color: var(--text-color);
 }
-.activity-data .data .data-list{
+.activityy .dlist{
     font-size: 18px;
     font-weight: 400;
     margin-top: 20px;
     white-space: nowrap;
     color: var(--text-color);
 }
+.data-title{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
 
 @media (max-width: 1000px) {
     nav{
